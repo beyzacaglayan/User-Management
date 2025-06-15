@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",                          // Modern JS çıktısı
+    "module": "commonjs",                        // Node.js için ortak modül sistemi
+    "moduleResolution": "node",
+    "outDir": "./dist",                          // Derlenmiş dosyalar buraya çıkacak
+    "rootDir": "./src",                          // Kaynak dosyaların yeri
+    "strict": true,                              // Katı TypeScript kuralları
+    "esModuleInterop": true,                     // import kullanımı için gerekli
+    "skipLibCheck": true,                        // node_modules tip kontrolünü atla
+    "forceConsistentCasingInFileNames": true     // Büyük küçük harf tutarlılığı zorunlu
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
+
